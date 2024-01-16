@@ -18,9 +18,9 @@ npm install layout-resizer --save
 ```js
 new layoutResizer(
   DOMElement layout,     // Resizable layout
-	DOMElement sash,       // Resizer
-	String dir,            // left, right, top, bottom
-	Boolean overrideCursor // true/false
+  DOMElement sash,       // Resizer
+  String dir,            // left, right, top, bottom
+  Boolean overrideCursor // true/false
 );
 ```
 
@@ -66,13 +66,13 @@ Create `index.html` file
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Layout Resizer</title>
 	<!-- Implement CDN Link -->
-  <script src="https://cdn.jsdelivr.net/npm/layout-resizer/dist/layout-resizer.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/layout-resizer/lib/layout-resizer.min.js"></script>
 </head>
 <body>
   <div class="layout">
     <div class="sidebar">
       <div class="sash"></div>
-      <strong>Secondry Bottom Bar</strong>
+      <strong>Primary Sidebar</strong>
     </div>
   </div>
 </body>
