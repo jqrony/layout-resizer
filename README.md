@@ -24,7 +24,7 @@ new layoutResizer(
 );
 ```
 
-![preview]()
+![preview](https://graphicserverstorage.github.io/store/snap.png)
 
 create `style.css` file or internal implement in html
 ```css
