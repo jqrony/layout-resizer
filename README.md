@@ -26,6 +26,8 @@ new layoutResizer(
 
 ![preview](https://graphicserverstorage.github.io/store/snap.png)
 
+**Notice** Don't implement minified file Because this version `1.0.3` minified file in may be bugs 
+
 create `style.css` file or internal implement in html
 ```css
 html, body, .layout {
@@ -65,8 +67,10 @@ Create `index.html` file
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Layout Resizer</title>
-	<!-- Implement CDN Link -->
-  <script src="https://cdn.jsdelivr.net/npm/layout-resizer/lib/layout-resizer.min.js"></script>
+  <!-- Implement CDN Link -->
+  <script src="https://cdn.jsdelivr.net/npm/layout-resizer/lib/layout-resizer.js"></script>
+  <link rel="stylesheet" href="style.css">
+  <script src="index.js" defer></script>
 </head>
 <body>
   <div class="layout">
